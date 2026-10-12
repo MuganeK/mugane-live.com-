@@ -1,0 +1,6 @@
+{
+  "name": "ACK St. Mary's Ngariama Church",
+  "description": "Official portal for ACK St. Mary's Ngariama Church, Anglican Diocese of Kirinyaga, Kenya. Plan your visit, give tithes via M-Pesa, explore ministries, and join in worship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
