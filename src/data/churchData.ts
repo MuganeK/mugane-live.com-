@@ -5,8 +5,8 @@ export const CHURCH_INFO = {
   diocese: "Anglican Church of Kenya, Diocese of Kirinyaga",
   location: "Ngariama Location, Gichugu Sub-County, Kirinyaga County, Kenya",
   postalAddress: "P.O. Box 142 - 10302, Kianyaga, Kirinyaga",
-  phone: "0721650977",
-  phoneIntl: "+254721650977",
+  phone: "0700000000",
+  phoneIntl: "+254700000000",
   email: "info@stmarysngariama.org",
   themeYear: "Remaining in Christ & Bearing Fruit (John 15:5)",
   motto: "Rooted in Faith, Growing in Love, Serving with Grace",
@@ -244,7 +244,7 @@ export const LEADERS: ChurchLeader[] = [
     role: "Parish Priest",
     bio: "Guiding the flock with over 22 years in pastoral ministry within the Diocese of Kirinyaga. Dedicated to expository preaching and community transformation.",
     department: "Clergy & Parish Leadership",
-    phone: "0721650977"
+    phone: "0700000000"
   },
   {
     id: 'leader-2',

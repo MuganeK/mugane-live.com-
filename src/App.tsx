@@ -107,6 +107,19 @@ export default function App() {
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleScrollToSection = (sectionId: string) => {
+    if (currentRoute !== 'home') {
+      navigateTo('home');
+      setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+      return;
+    }
+    const el = document.getElementById(sectionId);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
+
   // --------------------------------------------------------------------------
   // RENDER ADMIN ROUTE (/admin)
   // --------------------------------------------------------------------------
@@ -185,8 +198,8 @@ export default function App() {
         defaultCategory={givingCategory}
       />
 
-      {/* Floating WhatsApp Pastoral Helpline */}
-      <FloatingWhatsApp />
+      {/* Floating WhatsApp Pastoral Helpline & Quick-Action Shortcuts */}
+      <FloatingWhatsApp onNavigateSection={handleScrollToSection} />
     </div>
   );
 }

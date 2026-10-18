@@ -135,7 +135,7 @@ export const PrayerRequestSection: React.FC = () => {
                   <input
                     type="tel"
                     required
-                    placeholder="e.g. 0721650977"
+                    placeholder="e.g. 0700000000"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="w-full px-3.5 py-2.5 text-sm border border-stone-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-700 bg-white text-stone-900"

@@ -174,7 +174,7 @@ export const MinistriesSection: React.FC = () => {
                     <input
                       type="tel"
                       required
-                      placeholder="e.g. 0721XXXXXX"
+                      placeholder="e.g. 0700000000"
                       value={memberPhone}
                       onChange={(e) => setMemberPhone(e.target.value)}
                       className="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-purple-700 focus:outline-none"
